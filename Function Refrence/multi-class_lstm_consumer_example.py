@@ -11,6 +11,8 @@ from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
 from keras.layers import Dropout
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 STOPWORDS = set(stopwords.words('english'))

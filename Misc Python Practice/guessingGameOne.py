@@ -3,3 +3,4 @@
 #then tell them whether they guessed too low, too high, or exactly right
 import random
 
+def generateRandomNumber()
